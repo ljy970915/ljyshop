@@ -18,7 +18,7 @@ public interface SpecDao {
 	int addOption(SpecOption specOption);
 
 	List<Spec> list(Spec spec);
-
+	List<Spec> listAll();
 	Spec findById(int id);
 
 }
